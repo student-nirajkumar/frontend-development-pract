@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video Example</title>
+</head>
+<body>
+    <h1>Embedded Video Example</h1>
+    <div class="video-container">
+        <!-- Video without controls and with subtitles -->
+        <video width="300" height="300">
+            <source src="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.mp4" type="video/mp4">
+            <source src="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.ogg" type="video/ogg">
+            <p>Your browser does not support HTML5 video. Here is a <a href="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.mp4">link to the video</a> instead.</p>
+            <!-- Subtitle Track -->
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" label="English">
+        </video>
+
+        <!-- Video with controls and subtitles -->
+        <video controls width="300" height="300">
+            <source src="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.mp4" type="video/mp4">
+            <!-- Subtitle Track -->
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" label="English">
+        </video>
+
+        <!-- Video with autoplay and subtitles -->
+        <video controls autoplay width="300" height="300">
+            <source src="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.mp4" type="video/mp4">
+            <!-- Subtitle Track -->
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" label="English">
+        </video>
+
+        <!-- Video with a poster image and subtitles -->
+        <video controls autoplay poster="Screenshot 2025-01-21 153640.png" width="300" height="300">
+            <source src="WhatsApp Video 2025-01-21 at 13.38.06_fe60b237.mp4" type="video/mp4">
+            <!-- Subtitle Track -->
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" label="English">
+        </video>
+    </div>
+</body>
+</html>
